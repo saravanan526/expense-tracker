@@ -1,7 +1,6 @@
 import mysql.connector
 import streamlit as st
 
-# set_page_config must be the FIRST Streamlit command, and only called once
 st.set_page_config(page_title="Expense Tracker", page_icon="💰", layout="wide")
 
 import auth
@@ -9,6 +8,16 @@ import auth_ui
 import dashboard_ui
 import database as db
 from pages import add_expense, analytics, budget, expense_history, home
+
+# Create the tables FIRST (only once per session)
+if "db_ready" not in st.session_state:
+    try:
+        db.setup_database()
+        st.session_state["db_ready"] = True
+    except mysql.connector.Error as error:
+        st.error("Could not connect to MySQL. Check the database details in Secrets.")
+        st.code(str(error))
+        st.stop()
 
 # ---------------------------------------------------------------------
 # Not logged in -> styled login / register screen
