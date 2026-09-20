@@ -103,6 +103,7 @@ def get_connection(with_database=True):
         config["ssl_ca"] = DB_SSL_CA
 
     return mysql.connector.connect(**config)
+    config["use_pure"] = True
 
 
 def _column_exists(cursor, table, column):
