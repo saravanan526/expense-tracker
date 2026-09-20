@@ -1,0 +1,41 @@
+expense_date,category,amount,payment_method,description
+2026-07-05,Food,180,UPI,Lunch at college canteen
+2026-07-08,Transport,60,Cash,Bus fare to college
+2026-07-12,Education,850,UPI,Reference book for DBMS
+2026-07-15,Bills,599,Debit Card,Mobile recharge
+2026-07-20,Shopping,1299,Credit Card,T-shirt and jeans
+2026-07-24,Entertainment,350,UPI,Movie ticket
+2026-07-28,Food,420,UPI,Dinner with friends
+2026-07-30,Other,200,Cash,Stationery items
+2026-08-01,Bills,1200,Bank Transfer,Electricity bill
+2026-08-02,Food,150,UPI,Breakfast
+2026-08-03,Transport,120,Cash,Auto fare
+2026-08-05,Education,2500,Bank Transfer,Online course fee
+2026-08-07,Food,260,UPI,Chicken biryani
+2026-08-09,Entertainment,499,Credit Card,OTT subscription
+2026-08-10,Shopping,1800,Debit Card,Running shoes
+2026-08-12,Transport,300,UPI,Petrol
+2026-08-14,Food,95,Cash,Tea and snacks
+2026-08-16,Bills,749,UPI,Internet recharge
+2026-08-18,Other,500,Cash,Birthday gift for friend
+2026-08-20,Food,340,UPI,Groceries
+2026-08-22,Education,300,Cash,Printouts and record notebooks
+2026-08-25,Entertainment,600,UPI,Cricket turf booking
+2026-08-27,Transport,180,UPI,Metro card recharge
+2026-08-30,Food,720,Credit Card,Family dinner
+2026-09-01,Food,130,UPI,Breakfast
+2026-09-02,Transport,200,UPI,Petrol
+2026-09-03,Bills,599,Debit Card,Mobile recharge
+2026-09-04,Education,1200,UPI,Semester exam fee
+2026-09-05,Food,280,Cash,Lunch
+2026-09-07,Shopping,2450,Credit Card,College backpack
+2026-09-08,Entertainment,250,UPI,Movie ticket
+2026-09-10,Food,380,UPI,Groceries
+2026-09-11,Transport,90,Cash,Bus fare
+2026-09-12,Bills,1100,Bank Transfer,Electricity bill
+2026-09-14,Other,350,Cash,Haircut
+2026-09-15,Food,210,UPI,Dinner
+2026-09-16,Education,450,UPI,Project report printing
+2026-09-17,Shopping,799,Debit Card,Phone case
+2026-09-18,Food,160,Cash,Snacks
+2026-09-19,Transport,250,UPI,Cab ride
